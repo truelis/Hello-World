@@ -4,6 +4,7 @@ prompt += "\nWhen you finish enter 'quit': "
 while True:
     age = input(prompt)
 
+
     if age.lower() == 'quit':
         break
     age = float(age)
